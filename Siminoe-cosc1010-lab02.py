@@ -14,15 +14,15 @@ hello_message = "Hello, COSC1010"
 print(hello_message)
 
 # Assign the string "cowboy joe" to a variable, and print that variable with title casing
-MAS = "cowboy joe"
-print(MAS)
+mas = "cowboy joe"
+print(mas.title())
 
 # Complete the following f-string print message 
     # You will need to create your own variables and insert them  
     # the final message should read `The University of Wyoming was founded in 1886`
-UOW = "The University of Wyoming"
-YOF = "1886"
-print(f"The {UOW} was founded in {YOF}")
+uow = "The University of Wyoming"
+yof = "1886"
+print(f"The {uow} was founded in {yof}")
 
 # Now let's do some math with variables 
     # Create two variables x and y and assign them the values 5 and 10 respectively 
